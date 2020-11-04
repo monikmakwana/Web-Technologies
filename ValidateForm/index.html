@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Form Field Validation
+        </title>
+        <script src="validation.js" type="text/javascript"></script>
+        
+    </head>
+    <body>
+        <h3>  Form Field Validation </h3>
+        <br>
+        <form name="myForm" method="POST" onsubmit="return (validate_form());">
+            <table>
+            <tr>
+                <td>Name :</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr>
+                <td>Re-Enter Password :</td>
+                <td><input type="password" name="repwd"></td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Contact No :</td>
+                <td><input type="text" name="cno"> <label id="cn1"></label></td>
+            </tr>
+        </table>
+        <input type="submit" name="Submit">
+        </form>
+    </body>
+</html>
